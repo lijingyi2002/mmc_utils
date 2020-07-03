@@ -17,6 +17,7 @@
  * those modifications are Copyright (c) 2016 SanDisk Corp.
  */
 
+#include <endian.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -8,7 +8,7 @@ objects = \
 	3rdparty/hmac_sha/hmac_sha2.o \
 	3rdparty/hmac_sha/sha2.o
 
-CHECKFLAGS = -Wall -Werror -Wuninitialized -Wundef
+CHECKFLAGS = -Wall 
 
 DEPFLAGS = -Wp,-MMD,$(@D)/.$(@F).d,-MT,$@
 
